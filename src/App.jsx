@@ -10,10 +10,10 @@ function App() {
     return (
         <div>
             <Routes>
-                <Route path="/Cosmetology_Freya/massage" element={<MassagePage />} />
-                <Route path="/Cosmetology_Freya/face" element={<FacePage />} />
-                <Route path="/Cosmetology_Freya/device-cosmetology" element={<DevicePage /> } />
-                <Route path="/Cosmetology_Freya/" element={<MainPage />} />
+                <Route path="/massage" element={<MassagePage />} />
+                <Route path="/face" element={<FacePage />} />
+                <Route path="/device-cosmetology" element={<DevicePage /> } />
+                <Route path="/" element={<MainPage />} />
             </Routes>
         </div>
     );
