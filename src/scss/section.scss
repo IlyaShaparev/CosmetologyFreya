@@ -1,0 +1,193 @@
+@import url('./reset.scss');
+
+.section__price__list {
+  background: linear-gradient(150deg, #5e772d, #394524 6%, #313924, #262a20, #20241c, #1f221d 60%);
+  padding-top: 15px;
+}
+
+.section__content__wrapper{
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+}
+
+.title {
+  color: #a5a133;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Aqum', sans-serif;
+}
+
+
+#down {
+  font-size: 1em;
+
+  &:hover{
+    text-decoration: underline solid;
+    cursor: pointer;
+  }
+}
+
+.price_box {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2em 1.5em 2em;
+  font-size: 1.8em;
+  font-family: "Golos UI", serif;
+  color: #c6d286;
+  border-bottom: darkolivegreen 1px solid;
+  font-weight: 700;
+}
+
+.price_title{
+  line-height: 1.5em;
+}
+
+.price_list {
+  margin-bottom: 1.5em;
+}
+
+.price {
+  font-size: 1.2em;
+  margin-left: 4em;
+}
+
+.section__price__list .wrapper {
+  height: 100%;
+  //background-color: #c2ba89;
+  #first_title{
+    margin-top: 15px;
+  }
+}
+
+.stockes__section {
+  background: linear-gradient(350deg, #5e772d, #394524 20%, #313924, #262a20, #20241c, #1f221d 60%);
+  //background-color: #1f221d;
+
+  .wrapper {
+    flex-flow: column nowrap;
+
+    .stockes__title {
+      color: #a5a133;
+      font-family: 'Aqum', serif;
+      font-size: 2em;
+      margin-top: 1.2em;
+    }
+  }
+
+  .stockes__container {
+    width: 100%;
+    margin: 1.8em;
+    display: flex;
+    flex-flow: row nowrap;
+
+
+    .stock {
+      margin: auto;
+      width: 45%;
+      max-width: 500px;
+      height: 300px;
+      position: relative;
+      display: inline-block;
+
+      img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 300px;
+      }
+
+      .stock__text__content {
+        background-color: rgba(33, 38, 28, 0.55);
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        text-align: center;
+        color: #c6d286;
+        opacity: 0;
+        padding: 15px;
+      }
+
+      .stock__text__content:hover {
+        opacity: 1;
+      }
+
+      h3 {
+        font-family: 'Aqum', serif;
+        font-size: 24px;
+      }
+
+      .stock__desciption {
+        font-family: "Golos UI", serif;
+        font-size: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        width: 200px;
+        justify-self: flex-end;
+        align-self: center;
+      }
+
+      a:visited {
+        text-decoration: none;
+      }
+
+      .to__book {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        background-color: rgba(255, 255 , 255, 0.6);
+        border: 1px rgba(255, 255 , 255, 0.6) solid;
+        border-radius: 20px;
+      }
+
+      .to__book:hover {
+        background-color: rgba(255, 255, 0, 0.4);
+        border: 1px rgba(255, 255, 0, 0.4) solid;
+      }
+    }
+  }
+}
+
+.swiper {
+  background: linear-gradient(192deg, #5e772d, #394524 20%, #313924, #262a20, #20241c, #1f221d 60%);
+  padding: 2em;
+
+  .wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+
+    .title__section__swiper {
+      color: #a5a133;
+      font-family: 'Aqum', serif;
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 1.2em;
+    }
+  }
+
+}
+
+.face__section .wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.section__price__list.face__section {
+  background: linear-gradient(167deg, #5e772d, #394524 2%, #313924 4%, #262a20, #20241c, #1f221d 20%);
+  .section__content__wrapper {
+    margin: 2em;
+  }
+}
+
